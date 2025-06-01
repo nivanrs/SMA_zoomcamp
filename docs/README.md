@@ -1,20 +1,20 @@
-# Stock Market Analytics Zoomcamp - Project Overview
+# Pendahuluan Stock Market Analytics Zoomcamp
 
-This documentation provides a comprehensive guide to the "Stock Market Analytics Zoomcamp" project. It covers the course structure, content, and how to navigate and utilize the various learning materials.
+Dokumentasi ini memberikan panduan lengkap untuk proyek "Stock Market Analytics Zoomcamp". Dokumentasi mencakup struktur kursus, konten, dan cara menavigasi serta menggunakan berbagai materi pembelajaran.
 
-## Purpose and Goals
+## Tujuan dan Sasaran
 
-The "Stock Market Analytics Zoomcamp" is designed to equip learners with the knowledge and practical skills required for data-driven decision-making in stock market analysis. The course covers a wide range of topics, from fundamental data acquisition and manipulation to advanced analytical modeling, trading strategy simulation, and the deployment of automated solutions.
+"Stock Market Analytics Zoomcamp" dirancang untuk melatih peserta dengan pengetahuan dan keterampilan praktis yang diperlukan untuk membuat keputusan berbasis data dalam analisis pasar saham. Kursus ini mencakup topik yang luas mulai dari pengambilan dan manipulasi data dasar hingga pemodelan analitik lanjutan, simulasi strategi perdagangan, dan automasi.
 
-## Key Features
+## Fitur Utama
 
-- **Comprehensive Curriculum:** Covers data sources, Pandas for data manipulation, time-series modeling, trading strategy development, and deployment automation.
-- **Practical Hands-on Learning:** Utilizes Google Colab notebooks for interactive coding and practical exercises.
-- **Real-world Applications:** Focuses on applying data science and machine learning techniques to financial markets.
-- **Community Support:** Access to Slack and Telegram channels for discussions and assistance.
-- **Flexible Learning:** Materials are freely available for self-paced learning, with options for live cohorts.
+- **Kurikulum Lengkap:** Mencakup sumber data, manipulasi data dengan Pandas, pemodelan time-series, pengembangan strategi perdagangan, dan automasi.
+- **Praktek:** Menggunakan notebook Google Colab untuk belajar coding secara interaktif.
+- **Aplikasi Dunia Nyata:** Fokus pada penerapan teknologi data analisis, data science dan machine learning untuk pasar saham.
+- **Dukungan Komunitas:** Akses ke channel Slack dan Telegram untuk diskusi dan bantuan.
+- **Belajar Fleksibel:** Materi tersedia secara gratis untuk pembelajaran mandiri, dengan opsi untuk ikut kelas live.
 
-## Official Resources
+## Sumber Resmi
 
-- **GitHub Repository:** [https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp)
-- **PythonInvest Website:** [https://pythoninvest.com/course](https://pythoninvest.com/course)
+- **Repository GitHub:** [https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp)
+- **Website PythonInvest:** [https://pythoninvest.com/course](https://pythoninvest.com/course)

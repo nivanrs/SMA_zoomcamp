@@ -1,41 +1,41 @@
-# Community and Support - Stock Market Analytics Zoomcamp
+# Dukungan Komunitas - Stock Market Analytics Zoomcamp
 
-This document outlines the various channels available for community interaction and support during the "Stock Market Analytics Zoomcamp."
+Dokumen ini menjelaskan berbagai saluran yang tersedia untuk berinteraksi dan mendapatkan dukungan selama "Stock Market Analytics Zoomcamp" berlangsung.
 
-## Slack Channel
+## Slack
 
-The best way to get support and interact with the community is through [DataTalks.Club's Slack](https://datatalks.club/slack.html).
+Cara terbaik untuk mendapatkan dukungan dan berinteraksi dengan komunitas adalah melalui [Slack DataTalks.Club](https://datatalks.club/slack.html).
 
-- **Join the Channel:** After joining DataTalks.Club Slack, navigate to the [`#course-stocks-analytics-zoomcamp`](https://datatalks-club.slack.com/archives/C06L1RTF10F) channel.
+- **Bergabung dengan Saluran:** Setelah bergabung dengan Slack DataTalks.Club, masuk ke saluran [`#course-stocks-analytics-zoomcamp`](https://datatalks-club.slack.com/archives/C06L1RTF10F).
 
-### Guidelines for Asking for Help in Slack
+### Petunjuk Meminta Bantuan di Slack
 
-To ensure discussions in Slack are organized and effective, please follow these recommendations:
+Untuk memastikan diskusi di Slack terorganisir dan efektif, ikuti petunjuk berikut:
 
-- **Before Posting:**
-  - Try to Google your question first.
-  - Check the Course's FAQ ([Frequently asked technical questions](https://docs.google.com/document/d/1ABQD6ns4vZHKu2dHG9B7irveRASJCAS4BTnJcvM2QX2ykIGZ0UNgCPQ/edit?usp=sharing)) before posting.
-- **When Posting:**
-  - **DO NOT** use screenshots, especially do not take pictures from a phone. Copy and paste errors directly. If the error message is long, post it as a reply to your thread.
-  - **DO NOT** tag instructors directly; this may discourage others from helping you.
-  - Use triple backticks (```) for formatting your code snippets.
-  - Use the same thread for the entire conversation related to an issue (reply to your own thread).
-  - **DO NOT** create multiple posts to discuss the same issue.
-  - You may create a new post if an issue re-emerges later, but be sure to describe what has changed in the environment since the last discussion.
-  - Provide additional information in the same thread about the steps you have already taken for resolution.
+- **Sebelum Memposting:**
+  - Coba cari jawabannya di internet (Google) dulu sebelum bertanya.
+  - Periksa FAQ Kursus ([Pertanyaan Teknis Umum](https://docs.google.com/document/d/1ABQD6ns4vZHKu2dHGqqJ85LCOF7LzxqfvWBVXb_-M9E/edit?usp=sharing)) sebelum memposting.
+- **Saat Memposting:**
+  - **JANGAN** gunakan screenshot, terutama jangan foto dari ponsel. Salin dan tempel bagian yang salah langsung. Jika pesan kesalahan panjang, tempel di balasan thread Anda.
+  - **JANGAN** tag instruktur langsung; ini bisa menghambat orang lain membantu Anda.
+  - Gunakan tiga backtick (```) untuk format kode.
+  - Gunakan thread yang sama untuk seluruh percakapan terkait masalah (balas ke thread Anda sendiri).
+  - **JANGAN** buat banyak posting untuk membahas masalah yang sama.
+  - Anda dapat membuat posting baru jika masalah muncul lagi nanti, tetapi jelaskan perubahan yang terjadi di lingkungan sejak diskusi terakhir.
+  - Berikan informasi tambahan di thread yang sama tentang langkah-langkah yang sudah Anda lakukan untuk menyelesaikan masalah.
 
-## Telegram Channel
+## Saluran Telegram
 
-Join the [course Telegram channel with announcements](https://t.me/stockanalyticszoomcamp) for important updates and announcements related to the Zoomcamp.
+Bergabunglah dengan [saluran Telegram dengan pengumuman](https://t.me/stockanalyticszoomcamp) untuk mendapatkan pembaruan dan pengumuman penting terkait Zoomcamp. Termasuk jadwal Live/
 
-## YouTube Channel
+## Saluran YouTube
 
-The course videos and livestreams are published on [PythonInvest's YouTube channel](https://www.youtube.com/@pythoninvest2480). Subscribe to stay updated with new content.
+Video kursus dan siaran langsung kursus dipublikasikan di [saluran YouTube PythonInvest](https://www.youtube.com/@pythoninvest2480). Subscribe untuk tetap mendapatkan pembaruan.
 
-## Frequently Asked Questions (FAQ)
+## Pertanyaan Umum (FAQ)
 
-For common technical questions and troubleshooting, refer to the [Frequently asked technical questions](https://docs.google.com/document/d/1ABQD6ns4vZHKu2dHGqqJ85LCOF7LzxqfvWBVXb_-M9E/edit?usp=sharing) document.
+Untuk pertanyaan teknis umum dan pemecahan masalah, lihat [Pertanyaan Umum](https://docs.google.com/document/d/1ABQD6ns4vZHKu2dHGqqJ85LCOF7LzxqfvWBVXb_-M9E/edit?usp=sharing).
 
-## Community Guidelines
+## Petunjuk Komunitas
 
-Please read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html) to ensure a respectful and productive learning environment.
+Silakan baca [Petunjuk Komunitas DataTalks.Club](https://datatalks.club/slack/guidelines.html) untuk memastikan lingkungan yang respektif dan produktif.
