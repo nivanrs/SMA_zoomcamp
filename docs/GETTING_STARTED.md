@@ -1,42 +1,49 @@
-# Getting Started with Stock Market Analytics Zoomcamp
+# Panduan Memulai Zoomcamp Analisis Pasar Saham
 
-This guide provides essential information to help you get started with the "Stock Market Analytics Zoomcamp," including prerequisites, environment setup, and how to access course materials.
+Dokumen ini memberikan informasi penting untuk membantu Anda memulai perjalanan belajar di "Stock Market Analytics Zoomcamp". Meliputi persyaratan dasar, cara mengatur lingkungan, dan akses ke materi kursus.
 
-## Prerequisites
+## Persyaratan Dasar
 
-To get the most out of this course, it is recommended that you have:
+Untuk mendapatkan manfaat maksimal dari kursus ini, disarankan Anda memiliki:
 
-- Basic understanding of Python programming.
-- Familiarity with fundamental data concepts.
-- A Google account for accessing Colab notebooks.
+- Pemahaman dasar tentang bahasa pemrograman Python.
+- Kenal dengan konsep dasar data.
+- Akun Google untuk mengakses notebook Google Colab.
 
-## Environment Setup
+## Mengatur Lingkungan
 
-The course primarily utilizes Google Colab for hands-on exercises. For local development and automation in Module 5, specific setup instructions are provided.
+Kursus utamanya menggunakan Google Colab untuk latihan praktis. Untuk modul terakhir (Module 5), Anda perlu mengatur lingkungan lokal jika ingin menjalankan automasi.
 
 ### Google Colab
 
-Most of the course's code examples are provided as Google Colab notebooks. You can access them directly via the links in the module documentation. Colab provides a cloud-based Jupyter environment, so no local setup is required for the notebooks.
+Sebagian besar contoh kode di kursus disajikan sebagai notebook Google Colab. Anda bisa mengaksesnya langsung melalui link di dokumen modul masing-masing. Colab menyediakan lingkungan Jupyter di cloud, sehingga tidak perlu pengaturan tambahan untuk notebook.
 
-### Local Environment Setup (for Module 5: Deployment and Automation)
+### Pengaturan Lingkungan Lokal (untuk Module 5)
 
-For Module 5, you will transition to local Python files and may need to set up a local development environment.
+Untuk Module 5, Anda akan beralih ke file Python lokal dan mungkin perlu mengatur lingkungan pengembangan lokal.
 
-1.  **Change Working Directory:**
+1.  **Ubah Direktori Kerja:**
+
     ```bash
     cd source/stock-markets-analytics-zoomcamp/05-deployment-and-automation/
     ```
-2.  **Install Virtual Environment:**
+
+2.  **Instal Virtual Environment:**
+
     ```bash
     pip3 install virtualenv
     ```
-3.  **Create a New Virtual Environment (venv):**
+
+3.  **Buat Virtual Environment Baru (venv):**
+
     ```bash
     virtualenv venv
-    # OR
+    # ATAU
     python3 -m venv venv
     ```
-4.  **Activate the New Virtual Environment:**
+
+4.  **Aktifkan Virtual Environment:**
+
     - **Linux/macOS:**
       ```bash
       source venv/bin/activate
@@ -49,51 +56,52 @@ For Module 5, you will transition to local Python files and may need to set up a
       ```powershell
       .\venv\Scripts\Activate.ps1
       ```
-5.  **Install Ta-lib (Technical Analysis Library):**
 
-    - **On Mac:**
-      - **Step 1: Install Homebrew** (if not already installed):
+5.  **Instal Ta-lib (Library Analisis Teknik):**
+
+    - **Untuk macOS:**
+      - **Langkah 1: Instal Homebrew** (jika belum terinstal):
         ```bash
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
         ```
-      - **Step 2: Install TA-Lib using Homebrew:**
+      - **Langkah 2: Instal TA-Lib menggunakan Homebrew:**
         ```bash
         brew install ta-lib
         ```
-      - **Step 3: Install the ta-lib Python package** (ensure your virtual environment is active):
+      - **Langkah 3: Instal package ta-lib Python** (pastikan virtual environment aktif):
         ```bash
         pip3 install ta-lib
         ```
-      - **Step 4: Ensure Numpy version compatibility:** Make sure you have Numpy of a version earlier than 2 (e.g., "numpy==1.26.4" in `requirements.txt`) to ensure `ta-lib` can be successfully imported. Refer to [this link](https://stackoverflow.com/questions/78634235/numpy-dtype-size-changed-may-indicate-binary-incompatibility-expected-96-from) for more details.
-    - **For other operating systems**, please refer to the official TA-Lib installation guides.
+      - **Langkah 4: Pastikan kompatibilitas versi Numpy:** Pastikan Anda menggunakan versi Numpy sebelum versi 2 (misalnya "numpy==1.26.4" di `requirements.txt`) agar `ta-lib` dapat di-import dengan lancar. Lihat [link ini](https://stackoverflow.com/questions/78634235/numpy-dtype-size-changed-may-indicate-binary-incompatibility-expected-96-from) untuk detail lebih lanjut.
+    - **Untuk sistem operasi lainnya**, silakan lihat petunjuk instalasi resmi TA-Lib.
 
-6.  **Install all requirements to the new environment (venv):**
+6.  **Instal semua requirements ke environment baru (venv):**
     ```bash
     pip3 install -r requirements.txt
     ```
 
-### Running the Project (Local)
+### Menjalankan Proyek (Lokal)
 
-After setting up your local environment and activating the virtual environment:
+Setelah mengatur lingkungan lokal dan mengaktifkan virtual environment:
 
-- **Start the local Jupyter Server:**
+- **Mulai Server Jupyter Lokal:**
   ```bash
   jupyter notebook
   ```
-  (You can check all running servers with `jupyter notebook list`)
-- **Open `test.ipynb` to check the system's operation:**
-  - From your web browser (navigate to `http://localhost:8888/tree` or similar).
-  - Or via the VS Code UI (specify the server address kernel).
-- **Run `main.py` from the Terminal (or Cron) to simulate one new day of data:**
+  (Anda bisa cek semua server yang berjalan dengan `jupyter notebook list`)
+- **Buka `test.ipynb` untuk memeriksa sistem:**
+  - Dari browser web (buka `http://localhost:8888/tree` atau sejenisnya).
+  - Atau melalui antarmuka VS Code (tentukan kernel server address).
+- **Jalankan `main.py` dari Terminal (atau Cron) untuk mensimulasikan satu hari data baru:**
   ```bash
   python main.py
   ```
 
-## Accessing Course Materials
+## Akses Materi Kursus
 
-All course materials are freely available:
+Semua materi kursus tersedia secara gratis:
 
-- **YouTube Recordings:** Each module has a corresponding YouTube livestream recording. Links are provided in the module-specific documentation.
-- **Slides:** Presentation slides for each module are available via Google Slides links.
-- **Code in Colab:** Interactive Jupyter notebooks hosted on Google Colab are provided for hands-on coding.
-- **Homework Assignments:** Found in the `cohorts/` folder for the respective year. Submission links and deadlines are provided there.
+- **Rekaman YouTube:** Setiap modul memiliki rekaman siaran langsung yang sesuai. Link disediakan di dokumen modul masing-masing.
+- **Slide:** Slide presentasi untuk setiap modul tersedia melalui link Google Slides.
+- **Kode di Colab:** Notebook Jupyter interaktif yang dihosting di Google Colab disediakan untuk latihan coding.
+- **Tugas Rumah:** Ditemukan di folder `cohorts/` untuk tahun yang sesuai. Link pengiriman dan deadline disediakan di sana.
